@@ -10,7 +10,7 @@ public:
     Books(int total_books = 0) { // Default value for total_books
         totalBooks = total_books;
     }
-
+// function
     void showBooksInfo() const {
         cout << "Total Books: " << totalBooks << endl;
     }
